@@ -5,8 +5,8 @@ This is a Vim plugin for [vvkame/dtsm](https://github.com/vvakame/dtsm) command,
 ## How to install
 ### Requirements
 
-* `dtsm` command(`npm install -g dtsm`)
-* `Shougo/unite.vim` : 
+* `dtsm` command (`npm install -g dtsm`)
+* [Shougo/unite.vim](https://github.com/Shougo/unite.vim)
 
 If you use NeoBundle, write the following into your .vimrc:
 
@@ -19,7 +19,8 @@ And execute `:NeoBundleInstall` command in your Vim, you can get unite.vim and v
 
 ## How to use
 ### Unite Source
-This plugin has a [Shougo/unite.vim](https://github.com/Shougo/unite.vim) source.
+vim-dtsm has an Unite source.
+
 Execute `:Unite dtsm`, so you can get candidates for installable .d.ts files.
 
 You can execute with keyword. e.g. `:Unite dtsm:angular`(it's same `dtsm search angular` in terminal).
@@ -30,7 +31,7 @@ This plugin provides the following commands:
 * `:DtsmInstall file_name1 file_name2 ...`: Install .d.ts files.
 * `:DtsmUninstall file_name1 file_name2 ...`: Uninstall .d.ts files.
 * `:DtsmInit` : Create dtsm.json.
-* `:DtsmFetch` : 
+* `:DtsmFetch` : Fetch from remote repository
 * `:DtsmUpdate` : Update all .d.ts files.
 
 ## License
