@@ -22,6 +22,7 @@ And execute `:NeoBundleInstall` command in your Vim, you can get unite.vim and v
 vim-dtsm has an Unite source.
 
 Execute `:Unite dtsm`, so you can get candidates for installable .d.ts files.
+Hit enter on selected candidate, so the .d.ts file get installed.
 
 You can execute with keyword. e.g. `:Unite dtsm:angular`(it's same `dtsm search angular` in terminal).
 
