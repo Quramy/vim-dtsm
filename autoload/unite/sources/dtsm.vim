@@ -7,7 +7,7 @@ scriptencoding utf-8
 
 let s:source = {
       \ 'name': 'dtsm',
-      \ 'description': 'TypeScript project information',
+      \ 'description': '.d.ts files you can installe',
       \ }
 
 function! s:source.gather_candidates(args, context)
