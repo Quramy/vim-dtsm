@@ -11,7 +11,6 @@ let s:source = {
       \ }
 
 function! s:source.gather_candidates(args, context)
-  echo join(a:args, ' ')
   let stdouts = systemlist('dtsm search '.join(a:args, ' '))
   let result = []
   if len(stdouts) < 3
