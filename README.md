@@ -2,6 +2,8 @@
 
 This is a Vim plugin for [vvkame/dtsm](https://github.com/vvakame/dtsm) command, which is dependency management tool for TypeScript .d.ts files.
 
+![screen](screen.gif)
+
 ## How to install
 ### Requirements
 
